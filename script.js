@@ -1,7 +1,8 @@
 function login() {
     let key = "gamesplz";
     let pass = window.prompt("Enter Password");
-    if (password=="iwantgames") {
+    window.alert("Ya dad")
+    /*if (password=="iwantgames") {
         sessionStorage.setItem("auth", "true");
         window.open("launcher.html", "_top", "", "true");
     }
@@ -10,5 +11,5 @@ function login() {
     }
     else {
         window.open("google.com", "_top", "", "true");
-      }
+      }*/
 }
