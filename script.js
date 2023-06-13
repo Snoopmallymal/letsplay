@@ -11,4 +11,4 @@ function login() {
     else {
         window.open("google.com", "_top", "", "true");
       }
-}
+    }
