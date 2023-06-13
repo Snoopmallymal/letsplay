@@ -1,5 +1,5 @@
 function login() {
-    let key = "gamesplz"
+    /* let key = "gamesplz"
     let pass = window.prompt("Enter Password")
     if (password=="iwantgames") {
         sessionStorage.setItem("auth", "true");
@@ -11,4 +11,6 @@ function login() {
     else {
         window.open("google.com", "_top", "", "true");
       }
-    }
+}
+*/
+    window.alert("button pressed")
