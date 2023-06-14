@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>settings</title>
+        <script src="settings.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+            h1 {
+                text-align: center;
+                font-weight: bold;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 90px;
+                color: whitesmoke;
+            }
+            body {
+                background-color: black;
+            }
+            button{
+                font-family: Roboto, sans-serif;
+                font-weight: 900;
+                font-size: 24px;
+                color: #fff;
+                background-color: #cc0000;
+                padding: 10px 30px;
+                border: 2px solid #cc0000;
+                box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+                border-radius: 50px;
+                transition : 402ms;
+                transform: translateY(0);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                cursor: pointer;
+                margin: 1%;
+                display: inline;
+                align-self: center;
+                text-align: center ;
+                align-content: center;
+                }
+                button:hover{
+                    transition : 600ms;
+                    padding: 10px 17px;
+                    transform : translateY(-0px);
+                    background-color: #fff;
+                    color: #cc0000;
+                    border: solid 2px #cc0000;
+                    color: #cc0000;
+                    margin: auto;
+                }
+                .button_holder {
+                    width: 63%;
+                    margin: auto;
+                }
+                
+            
+
+        </style>
+    </head>
+    <body onload="siteload()">
+        <div class="settings">
+            <h1>Options</h1>
+            <div class="button_holder">
+                <button onclick="changename()">Change Name</button>
+                <button>Request Game</button>
+                <!-- button>Support Site</button -->
+                <!-- button>View on Git</button -->
+                <button>Altertive Links</button>
+                <button>Stay Signed in</button>
+                <button>Clear All Data</button>
+            </div>
+            
+        </div>
+        <div class="dev">
+
+        </div>
+    </body>
+</html>

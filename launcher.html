@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+            @font-face {
+                font-family: Flavor_sans;
+                src: url(fonts/Flavor_sans.otf);
+            }
+            body {
+                background-image: url(img/background.png);
+                font-family: Flavor_sans;
+                letter-spacing: 5px;
+
+            }
+            h1{
+                text-align: center;
+                font-size: 75px;
+                margin-top: 2.5%s;
+            }
+            .icon_holder {
+                margin-top: 1%;
+                margin-bottom: 25%;
+                align-self: center;
+                background-color: gray;
+                border-style: groove;
+                border-color: black;
+                width: 80%;
+                display: inline-block;
+                margin-left: 10%;
+                margin-right: 10%;
+                text-align: center;
+                border-width: 0.15%;
+                background: linear-gradient(135deg, rgba(22,133,204,1) 0%, rgba(43,8,126,1) 49%, rgba(132,34,121,1) 95%)
+            }
+            .icon {
+                width: 20%;
+                height: 20%;
+                display: inline-block;
+                position: relative;
+                align-self: center;
+                margin-left: 2%;
+                margin-right: 2%;
+                margin: 1%;
+                text-align: center;
+                
+}
+        </style>
+        <script src="launcher.js"></script>
+    </head>
+    <body>
+        <br>>
+        <h1>Welcome to the Game hut</h1>
+       <div class="icon_holder">
+            <img class="icon" src="img/2048.png" onclick="loadgame('2048')">
+            <img class="icon" src="img/hextris.png" onclick="loadgame('hextris')">
+            <img class="icon" src="img/minecraft.png    " onclick="loadgame('minecraft')">
+            <img class="icon" src="img/settings.png" onclick="loadgame('settings')">
+
+       </div> 
+    </body>
+</html>

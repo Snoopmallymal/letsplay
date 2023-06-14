@@ -1,0 +1,19 @@
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
+body {
+    background-image: linear-gradient(red, yellow);
+    width: auto;
+    height: auto;
+}
+.icon {
+    width: 10%;
+    height: 10%;
+}
+.icon_holder {
+    background-color: blue;
+    width: 60%;
+    
+}
